@@ -11,31 +11,64 @@ body {
   width: 100%;
   overflow-x: hidden;
 
-  background-color: #dc5348;
+  background-color: #000;
 
-  height: 2000px;
+  height: auto;
+}
+
+hr {
+  border-color: white;
 }
 
 header, .blocky {
   min-height: 100vh;
   height: auto;
   overflow: hidden;
+
+  padding-top: $navbar-height;
+
+  z-index: 0;
 }
 
 header {
-  background-color: #265;
+  padding-top: 30vh !important;
+}
+
+.title {
+  text-shadow: 0 1px 2px $opaque;
+  letter-spacing: 2px;
+}
+
+footer {
+  background-color: $gray-dark;
+  height: 300px;
+}
+
+.bg {
+  display: block;
+  box-sizing: border-box;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+
+  transform: scale(1.1);
+
+  background-color: #000;
   background-image: url("../images/header.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  
-  padding-top: $navbar-height;
+
+  z-index: -1;
 }
 
-.intro {
-  background-color: #fff;
+.about {
+  background-color: $brand;
+  z-index: 1;
 }
 
-.howto {
-  background-color: #3fe;
+.offer {
+  background-color: $brand-darker;
 }

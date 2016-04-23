@@ -1,0 +1,25 @@
+//== Colors
+//
+//## Gray and brand colors for use across Bootstrap.
+
+$gray-base:              #000 !default;
+$gray-darker:            lighten($gray-base, 13.5%) !default; // #222
+$gray-dark:              lighten($gray-base, 20%) !default;   // #333
+$gray:                   lighten($gray-base, 33.5%) !default; // #555
+$gray-light:             #DC5348 !default;   // #999
+$gray-lighter:           #EBEBEB !default; // #eee
+
+$brand-primary:         #DF691A !default;
+$brand-success:         #5cb85c !default;
+$brand-info:            #5bc0de !default;
+$brand-warning:         #f0ad4e !default;
+$brand-danger:          #d9534f !default;
+
+//My oown colors
+$opaque:        rgba(1, 1, 1, 0.7);
+
+$brand:         #45C494;
+$brand-darker:  #44615E;
+$brown:         #543B26;
+$grey:          #BAB29F;
+$almond:        #DBC48C;
