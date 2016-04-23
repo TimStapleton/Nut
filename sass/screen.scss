@@ -1,0 +1,41 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass/reset";
+@import "bootstrap";
+@import "bootswatch";
+
+body {
+  width: 100%;
+  overflow-x: hidden;
+
+  background-color: #dc5348;
+
+  height: 2000px;
+}
+
+header, .blocky {
+  min-height: 100vh;
+  height: auto;
+  overflow: hidden;
+}
+
+header {
+  background-color: #265;
+  background-image: url("../images/header.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  
+  padding-top: $navbar-height;
+}
+
+.intro {
+  background-color: #fff;
+}
+
+.howto {
+  background-color: #3fe;
+}
